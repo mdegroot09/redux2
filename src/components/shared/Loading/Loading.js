@@ -6,9 +6,9 @@ export default function Loading() {
   switch (window.location.hash) {
     case '#/hacker-news':
       colorScheme = {
-        one: { boxShadow: '2px 2px 5px #F36522' },
-        two: { boxShadow: '2px 2px 5px #d16432' },
-        three: { boxShadow: '2px 2px 5px #F36522' }
+        one: { boxShadow: '2px 2px 5px #0066ff' },
+        two: { boxShadow: '2px 2px 5px #99c2ff' },
+        three: { boxShadow: '2px 2px 5px #0047b3' }
       };
       break;
     case '#/medium':
